@@ -13,4 +13,4 @@ class MessageViewSet(ModelViewSet):
 
 @api_view(['GET'])
 def sample_view(request):
-    return Response({'message': 'CI_CD'})
+    return Response({'message': 'NEW data'})
