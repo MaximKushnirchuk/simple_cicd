@@ -13,4 +13,4 @@ class MessageViewSet(ModelViewSet):
 
 @api_view(['GET'])
 def sample_view(request):
-    return Response({'message': 'finish test !!!'})
+    return Response({'message': 'And all working !!!!!!!OOOOOOOOOOOOOO'})
