@@ -13,4 +13,4 @@ class MessageViewSet(ModelViewSet):
 
 @api_view(['GET'])
 def sample_view(request):
-    return Response({'message': 'Date 02.01.24   - check data'})
+    return Response({'message': 'Date 02.01.24   - new'})
